@@ -6,8 +6,8 @@ A forewarning, I am very new to electronics design in general. I apologize in ad
   <img src="FrameWork_Banner.png" alt="Banner" />
 </p>
 
-# What is FrameWork?
-Framework is intended to be an open-source bundle of different hardware peripherals built around (but not always exclusive to) the Steam Frame. The idea is to leverage the steam frames' modularity and general openness to create a collection of open-source hardware projects that the community can provide feedback on, expand upon, or even take and turn into something entirely new, creating a feedback loop that adds to an ever-expanding ecosystem for the steam frame. All source files, from schematics to STLs, will be included, allowing every aspect of each project to be modified and produced to anyone’s preferences. 
+# What is Frame Workshop?
+Frame Workshop is intended to be an open-source bundle of different hardware peripherals built around (but not always exclusive to) the Steam Frame. The idea is to leverage the steam frames' modularity and general openness to create a collection of open-source hardware projects that the community can provide feedback on, expand upon, or even take and turn into something entirely new, creating a feedback loop that adds to an ever-expanding ecosystem for the steam frame. All source files, from schematics to STLs, will be included, allowing every aspect of each project to be modified and produced to anyone’s preferences. 
 
 ## Hardware
 Below is a list of all currently in development hardware projects, including a brief overview and notes on changes made to the most recent revision.
