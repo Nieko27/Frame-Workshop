@@ -1,5 +1,9 @@
 ### WARNING
 This has yet to be produced by me yet, I have not yet added the gerber files to this repo yet as I have no idea if it will work yet, order them at your own risk.
+### TODO
+* Copper pads under power supply
+* Clean up and condense
+* ESD Protection
 # Face Tracker (Headset-Agnostic Version)
 Headset-agnostic face tracker. Can be used with Frame by using the USB-C port on the battery.
 <p align="left">

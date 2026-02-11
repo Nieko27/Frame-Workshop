@@ -184,7 +184,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R13"
-			(at 0 -1.65 0)
+			(at -0.0125 1.7 0)
 			(layer "F.SilkS")
 			(uuid "dc9e7e41-b596-439b-b20c-ed8fe83fabcb")
 			(effects
@@ -466,7 +466,7 @@
 		(descr "USB Type-C receptacle for USB 2.0 and PD, http://www.krhro.com/uploads/soft/180320/1-1P320120243.pdf")
 		(tags "usb usb-c 2.0 pd")
 		(property "Reference" "J1"
-			(at 0 -5.645 0)
+			(at -6.43 -0.95 0)
 			(layer "F.SilkS")
 			(uuid "46721055-1b73-4477-8796-0cc20bad2ee7")
 			(effects
@@ -1515,6 +1515,7 @@
 		(property "Reference" "H4"
 			(at 0 -3.15 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "7ced9879-92e5-433d-bfad-8bed9897a916")
 			(effects
 				(font
@@ -1612,7 +1613,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R12"
-			(at 0 -1.65 0)
+			(at -0.0125 1.7 0)
 			(layer "F.SilkS")
 			(uuid "48cbfff1-66d5-4750-8dc7-c3445b2b9e18")
 			(effects
@@ -2646,7 +2647,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C14"
-			(at 0 1.4 0)
+			(at 4.025 0.1 0)
 			(layer "F.SilkS")
 			(uuid "aee1aa9f-5e90-4eba-a18e-f4640a582bd8")
 			(effects
@@ -3293,7 +3294,7 @@
 		(at 142.225 92.4 180)
 		(descr "SMD Tactile Switch, 3.9x3x2 mm, https://lcsc.com/datasheet/lcsc_datasheet_2504101957_XUNPU-TS-1088-AR02016_C720477.pdf")
 		(tags "Tactile Switch")
-		(property "Reference" "SW1"
+		(property "Reference" "Reset"
 			(at 0 -2.65 0)
 			(layer "F.SilkS")
 			(uuid "c77d695c-49f0-413d-9e5c-bc9feb6a297c")
@@ -5510,8 +5511,8 @@
 		(at 180.375 92.4)
 		(descr "SMD Tactile Switch, 3.9x3x2 mm, https://lcsc.com/datasheet/lcsc_datasheet_2504101957_XUNPU-TS-1088-AR02016_C720477.pdf")
 		(tags "Tactile Switch")
-		(property "Reference" "SW2"
-			(at 0 -2.65 0)
+		(property "Reference" "Boot"
+			(at 0 2.6 0)
 			(layer "F.SilkS")
 			(uuid "5cde7165-bafe-4b7e-98ed-649fd630e037")
 			(effects
@@ -5969,7 +5970,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R15"
-			(at 0 -1.65 0)
+			(at -3.2875 0 0)
 			(layer "F.SilkS")
 			(uuid "422a08d2-941e-410a-bf32-f74bf3788ed3")
 			(effects
@@ -6477,6 +6478,7 @@
 		(property "Reference" "H2"
 			(at 0 -3.15 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "17a09c2e-4221-41de-8242-68a23ae35419")
 			(effects
 				(font
@@ -6574,7 +6576,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R14"
-			(at 0 1.8 90)
+			(at 0.05 -1.85 90)
 			(layer "F.SilkS")
 			(uuid "b7282473-5574-4ab4-aa2e-ab8c58b556a8")
 			(effects
@@ -6997,7 +6999,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C15"
-			(at 0 -1.43 0)
+			(at 3.975 0.15 0)
 			(layer "F.SilkS")
 			(uuid "b779b791-be35-44fb-881e-70834d1081b1")
 			(effects
@@ -7623,7 +7625,7 @@
 		(uuid "c25950ec-d00c-45c7-8bec-26e5d57b0ac0")
 		(at 162.75 110.8435 180)
 		(property "Reference" "CN2"
-			(at 0 -3.65 0)
+			(at -10.25 3.3435 0)
 			(layer "F.SilkS")
 			(uuid "f31c3b9a-ada9-41d2-8779-bf5db57df816")
 			(effects
@@ -9573,6 +9575,7 @@
 		(property "Reference" "H1"
 			(at 0 -3.15 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "bf5dfcc6-f72b-4df4-81d1-f05d994ab9b7")
 			(effects
 				(font
@@ -10377,6 +10380,7 @@
 		(property "Reference" "H3"
 			(at 0 -3.15 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "1bf049be-ad98-49ec-89eb-cd8ac4e37e81")
 			(effects
 				(font
