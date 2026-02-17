@@ -83,7 +83,7 @@
 			(usegerberextensions no)
 			(usegerberattributes yes)
 			(usegerberadvancedattributes yes)
-			(creategerberjobfile yes)
+			(creategerberjobfile no)
 			(dashed_line_dash_ratio 12.000000)
 			(dashed_line_gap_ratio 3.000000)
 			(svgprecision 4)
@@ -111,9 +111,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "manufacturing/")
 		)
 	)
 	(net 0 "")
@@ -126,7 +126,7 @@
 	(net 7 "Net-(U1-ANT)")
 	(net 8 "VDD_nRF")
 	(net 9 "Net-(U1-VBUS)")
-	(net 10 "DEC4")
+	(net 10 "DEC4_6")
 	(net 11 "DEC3")
 	(net 12 "Net-(J3-Pin_4)")
 	(net 13 "VBUS")
@@ -2732,7 +2732,7 @@
 			(roundrect_rratio 0.25)
 			(net 21 "unconnected-(U1-XL1{slash}P0.00-Pad2)")
 			(pinfunction "XL1/P0.00")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "f4efc4d5-5aab-41fc-8029-0247c3953e12")
 		)
 		(pad "3" smd roundrect
@@ -2742,7 +2742,7 @@
 			(roundrect_rratio 0.25)
 			(net 32 "unconnected-(U1-XL2{slash}P0.01-Pad3)")
 			(pinfunction "XL2/P0.01")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "22f00f3b-b8ea-4a9d-8bd8-4064bf4bcb8b")
 		)
 		(pad "4" smd roundrect
@@ -2752,7 +2752,7 @@
 			(roundrect_rratio 0.25)
 			(net 26 "unconnected-(U1-AIN2{slash}P0.04-Pad4)")
 			(pinfunction "AIN2/P0.04")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "91765782-2b85-48c3-9036-b3b437904d58")
 		)
 		(pad "5" smd roundrect
@@ -2762,7 +2762,7 @@
 			(roundrect_rratio 0.25)
 			(net 30 "unconnected-(U1-AIN3{slash}P0.05-Pad5)")
 			(pinfunction "AIN3/P0.05")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "1f785064-b434-4d56-87d1-1b5e2ef227d5")
 		)
 		(pad "6" smd roundrect
@@ -2772,7 +2772,7 @@
 			(roundrect_rratio 0.25)
 			(net 27 "unconnected-(U1-P1.09-Pad6)")
 			(pinfunction "P1.09")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "412e4093-73ca-4742-aca8-926cb6c4058b")
 		)
 		(pad "7" smd roundrect
@@ -2782,7 +2782,7 @@
 			(roundrect_rratio 0.25)
 			(net 17 "unconnected-(U1-P0.11-Pad7)")
 			(pinfunction "P0.11")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "ffb47c72-bc77-4ac9-890d-aea3506ce555")
 		)
 		(pad "8" smd roundrect
@@ -2852,7 +2852,7 @@
 			(roundrect_rratio 0.25)
 			(net 19 "unconnected-(U1-P0.15-Pad14)")
 			(pinfunction "P0.15")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "837be517-cbb7-4188-891e-9e82c02aac44")
 		)
 		(pad "15" smd roundrect
@@ -2862,7 +2862,7 @@
 			(roundrect_rratio 0.25)
 			(net 24 "unconnected-(U1-P0.17-Pad15)")
 			(pinfunction "P0.17")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "d41a6100-15be-48fd-a9e9-b6fa0150356e")
 		)
 		(pad "16" smd roundrect
@@ -2882,7 +2882,7 @@
 			(roundrect_rratio 0.25)
 			(net 31 "unconnected-(U1-P0.20-Pad17)")
 			(pinfunction "P0.20")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "f1c042ef-d074-44eb-94f8-6ebeb0b5a361")
 		)
 		(pad "18" smd roundrect
@@ -2922,7 +2922,7 @@
 			(roundrect_rratio 0.25)
 			(net 20 "unconnected-(U1-DEC5-Pad21)")
 			(pinfunction "DEC5")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "75232d2c-bf9c-4e97-aa2c-4b03ca36a823")
 		)
 		(pad "22" smd roundrect
@@ -2932,7 +2932,7 @@
 			(roundrect_rratio 0.25)
 			(net 22 "unconnected-(U1-NFC1{slash}P0.09-Pad22)")
 			(pinfunction "NFC1/P0.09")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "a8965e39-f607-4990-b7f4-ab4b4d207273")
 		)
 		(pad "23" smd roundrect
@@ -2942,7 +2942,7 @@
 			(roundrect_rratio 0.25)
 			(net 28 "unconnected-(U1-NFC2{slash}P0.10-Pad23)")
 			(pinfunction "NFC2/P0.10")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "cb26cea8-a3d2-4c6e-8c8b-8dae7c239f34")
 		)
 		(pad "24" smd roundrect
@@ -2970,7 +2970,7 @@
 			(size 0.825 0.25)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 10 "DEC4")
+			(net 10 "DEC4_6")
 			(pinfunction "DEC6")
 			(pintype "passive")
 			(uuid "750236ba-10d9-47ba-ab50-218b8b4023ff")
@@ -3022,7 +3022,7 @@
 			(roundrect_rratio 0.25)
 			(net 23 "unconnected-(U1-AIN1{slash}P0.03-Pad31)")
 			(pinfunction "AIN1/P0.03")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "e2c84ba5-fa4e-4142-8336-9cac6a3f58df")
 		)
 		(pad "32" smd roundrect
@@ -3032,7 +3032,7 @@
 			(roundrect_rratio 0.25)
 			(net 18 "unconnected-(U1-AIN0{slash}P0.02-Pad32)")
 			(pinfunction "AIN0/P0.02")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "93ba172c-8794-4ff1-b0c2-5168ddd05f85")
 		)
 		(pad "33" smd roundrect
@@ -3042,7 +3042,7 @@
 			(roundrect_rratio 0.25)
 			(net 38 "unconnected-(U1-AIN4{slash}P0.28-Pad33)")
 			(pinfunction "AIN4/P0.28")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "d609f542-7858-4a53-828d-1565c1eb35c0")
 		)
 		(pad "34" smd roundrect
@@ -3052,7 +3052,7 @@
 			(roundrect_rratio 0.25)
 			(net 39 "unconnected-(U1-AIN5{slash}P0.29-Pad34)")
 			(pinfunction "AIN5/P0.29")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "ce95584d-ede0-46b1-98da-9b0055e5281e")
 		)
 		(pad "35" smd roundrect
@@ -3072,7 +3072,7 @@
 			(roundrect_rratio 0.25)
 			(net 29 "unconnected-(U1-AIN7{slash}P0.31-Pad36)")
 			(pinfunction "AIN7/P0.31")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "4b209e20-b0b6-4555-90ab-c3429a71cce7")
 		)
 		(pad "37" smd roundrect
@@ -3090,7 +3090,7 @@
 			(size 0.25 0.825)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 10 "DEC4")
+			(net 10 "DEC4_6")
 			(pinfunction "DEC4")
 			(pintype "passive")
 			(uuid "241ce6a2-376f-4bd5-8d62-b41b6952a04d")
@@ -3102,7 +3102,7 @@
 			(roundrect_rratio 0.25)
 			(net 25 "unconnected-(U1-DCC-Pad39)")
 			(pinfunction "DCC")
-			(pintype "power_out")
+			(pintype "power_out+no_connect")
 			(uuid "79fc1119-e38d-480d-a26f-6cec0264426b")
 		)
 		(pad "40" smd roundrect
@@ -4273,7 +4273,7 @@
 			(size 0.9 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 10 "DEC4")
+			(net 10 "DEC4_6")
 			(pintype "passive")
 			(uuid "ece01fe6-d932-487d-9f41-28fd1e7c197f")
 		)
@@ -4405,7 +4405,7 @@
 			(size 0.9 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 10 "DEC4")
+			(net 10 "DEC4_6")
 			(pintype "passive")
 			(uuid "d67bda10-9c7f-4f81-b223-9c95d624bf2c")
 		)
@@ -5544,286 +5544,6 @@
 				(xyz 0 0 0)
 			)
 		)
-	)
-	(gr_line
-		(start 204.440002 65.799997)
-		(end 201.800001 65.799996)
-		(stroke
-			(width 0.03937)
-			(type default)
-		)
-		(layer "Dwgs.User")
-		(uuid "0195d6e1-cd69-4879-a1a3-77b91e9bc157")
-	)
-	(gr_line
-		(start 199.04 56.09999)
-		(end 199.04 56.99999)
-		(stroke
-			(width 0.03937)
-			(type default)
-		)
-		(layer "Dwgs.User")
-		(uuid "03927e6c-aa1f-4559-a73e-1ce211623850")
-	)
-	(gr_line
-		(start 199.04 58.399991)
-		(end 203.940003 58.399991)
-		(stroke
-			(width 0.03937)
-			(type default)
-		)
-		(layer "Dwgs.User")
-		(uuid "14e60fd4-a2c2-4b6c-9354-002a3b164650")
-	)
-	(gr_line
-		(start 204.440002 56.09999)
-		(end 204.440002 61.099993)
-		(stroke
-			(width 0.03937)
-			(type default)
-		)
-		(layer "Dwgs.User")
-		(uuid "1e05add5-0bc1-4e41-8cad-9c26a6b23b61")
-	)
-	(gr_line
-		(start 201.300001 60.599994)
-		(end 203.940003 60.599993)
-		(stroke
-			(width 0.03937)
-			(type default)
-		)
-		(layer "Dwgs.User")
-		(uuid "316e09bc-e85f-483a-b78b-7eb527feb720")
-	)
-	(gr_line
-		(start 199.04 56.09999)
-		(end 204.440002 56.09999)
-		(stroke
-			(width 0.03937)
-			(type default)
-		)
-		(layer "Dwgs.User")
-		(uuid "318c2619-4ac2-4cd8-b4e7-0ae0c335fc6b")
-	)
-	(gr_line
-		(start 201.800001 63.099995)
-		(end 204.440002 63.099995)
-		(stroke
-			(width 0.03937)
-			(type default)
-		)
-		(layer "Dwgs.User")
-		(uuid "3643b813-422c-4449-a0e3-19682e96f4cc")
-	)
-	(gr_line
-		(start 203.940003 65.299996)
-		(end 203.940003 63.599995)
-		(stroke
-			(width 0.03937)
-			(type default)
-		)
-		(layer "Dwgs.User")
-		(uuid "4522bbe2-2aab-4995-991f-e5d288e7a425")
-	)
-	(gr_line
-		(start 203.940003 58.399991)
-		(end 203.940003 56.99999)
-		(stroke
-			(width 0.03937)
-			(type default)
-		)
-		(layer "Dwgs.User")
-		(uuid "57057d72-70b9-415e-948c-fc167f80d765")
-	)
-	(gr_line
-		(start 203.940003 68.299997)
-		(end 201.300001 68.299998)
-		(stroke
-			(width 0.03937)
-			(type default)
-		)
-		(layer "Dwgs.User")
-		(uuid "59397eb6-1c26-4c2a-b7bf-e7efa0edbc02")
-	)
-	(gr_line
-		(start 203.940003 70)
-		(end 203.940003 68.299997)
-		(stroke
-			(width 0.03937)
-			(type default)
-		)
-		(layer "Dwgs.User")
-		(uuid "6261880e-76f5-4fd7-ae6c-92309a910f4a")
-	)
-	(gr_line
-		(start 204.440002 70.499999)
-		(end 200 70.500001)
-		(stroke
-			(width 0.03937)
-			(type default)
-		)
-		(layer "Dwgs.User")
-		(uuid "67256522-7ae8-4ded-8b34-14f087bc8046")
-	)
-	(gr_line
-		(start 204.440002 61.099993)
-		(end 201.800001 61.099993)
-		(stroke
-			(width 0.03937)
-			(type default)
-		)
-		(layer "Dwgs.User")
-		(uuid "6ad9c41b-95e5-4719-96de-e6da147a57e7")
-	)
-	(gr_line
-		(start 203.940003 63.599995)
-		(end 201.300001 63.599995)
-		(stroke
-			(width 0.03937)
-			(type default)
-		)
-		(layer "Dwgs.User")
-		(uuid "785e5774-c8cc-4627-90ce-4206ae4da8b8")
-	)
-	(gr_line
-		(start 201.800001 67.799998)
-		(end 204.440002 67.799998)
-		(stroke
-			(width 0.03937)
-			(type default)
-		)
-		(layer "Dwgs.User")
-		(uuid "818dc9df-3558-428c-9c6a-cdff91b9821c")
-	)
-	(gr_line
-		(start 201.800001 65.799996)
-		(end 201.800001 67.799998)
-		(stroke
-			(width 0.03937)
-			(type default)
-		)
-		(layer "Dwgs.User")
-		(uuid "93f6da05-399f-4a8b-af10-56c38c1b59ef")
-	)
-	(gr_line
-		(start 204.440002 67.799998)
-		(end 204.440002 70.499999)
-		(stroke
-			(width 0.03937)
-			(type default)
-		)
-		(layer "Dwgs.User")
-		(uuid "9dddddc3-5879-48c1-8117-b5b617660f69")
-	)
-	(gr_line
-		(start 201.300001 68.299998)
-		(end 201.300001 65.299996)
-		(stroke
-			(width 0.03937)
-			(type default)
-		)
-		(layer "Dwgs.User")
-		(uuid "a1643861-7352-478d-b075-73de194ea65c")
-	)
-	(gr_line
-		(start 201.300001 65.299996)
-		(end 203.940003 65.299996)
-		(stroke
-			(width 0.03937)
-			(type default)
-		)
-		(layer "Dwgs.User")
-		(uuid "a886b162-b444-4fbf-8031-6dfd9aa39eb9")
-	)
-	(gr_line
-		(start 199.04 56.99999)
-		(end 203.940003 56.99999)
-		(stroke
-			(width 0.03937)
-			(type default)
-		)
-		(layer "Dwgs.User")
-		(uuid "ad678025-adc5-4c8c-bcb8-1056a20a5060")
-	)
-	(gr_line
-		(start 200 70.500001)
-		(end 200 70)
-		(stroke
-			(width 0.03937)
-			(type default)
-		)
-		(layer "Dwgs.User")
-		(uuid "ade00a67-abaf-4fbe-9b9d-803ccc318a62")
-	)
-	(gr_line
-		(start 199.04 58.899991)
-		(end 199.04 58.399991)
-		(stroke
-			(width 0.03937)
-			(type default)
-		)
-		(layer "Dwgs.User")
-		(uuid "ba722cb2-9ebe-4694-afb0-689f132afc19")
-	)
-	(gr_line
-		(start 203.940003 60.599993)
-		(end 203.940003 58.899991)
-		(stroke
-			(width 0.03937)
-			(type default)
-		)
-		(layer "Dwgs.User")
-		(uuid "d9ae1397-9153-4af0-a7d2-ecb3d882fd93")
-	)
-	(gr_line
-		(start 200 70)
-		(end 203.940003 70)
-		(stroke
-			(width 0.03937)
-			(type default)
-		)
-		(layer "Dwgs.User")
-		(uuid "dc283445-d79a-4d82-8c38-e6dcba3ce569")
-	)
-	(gr_line
-		(start 203.940003 58.899991)
-		(end 199.04 58.899991)
-		(stroke
-			(width 0.03937)
-			(type default)
-		)
-		(layer "Dwgs.User")
-		(uuid "ddf8bc6d-ac97-41f5-ba0b-f10d693c22a4")
-	)
-	(gr_line
-		(start 204.440002 63.099995)
-		(end 204.440002 65.799997)
-		(stroke
-			(width 0.03937)
-			(type default)
-		)
-		(layer "Dwgs.User")
-		(uuid "ef13afae-abd8-44f3-8c28-e2167c135182")
-	)
-	(gr_line
-		(start 201.300001 63.599995)
-		(end 201.300001 60.599994)
-		(stroke
-			(width 0.03937)
-			(type default)
-		)
-		(layer "Dwgs.User")
-		(uuid "f98748fe-82b5-41f9-ba66-f49323d1ac3c")
-	)
-	(gr_line
-		(start 201.800001 61.099993)
-		(end 201.800001 63.099995)
-		(stroke
-			(width 0.03937)
-			(type default)
-		)
-		(layer "Dwgs.User")
-		(uuid "fab46041-6426-42aa-90cb-8731f18f0945")
 	)
 	(gr_line
 		(start 169 82.5)
@@ -8966,24 +8686,6 @@
 				(xy 125.038582 57.124118) (xy 125.058472 57.05714) (xy 125.111417 57.011548) (xy 125.162581 57.0005)
 				(xy 168.3755 57.0005)
 			)
-		)
-	)
-	(group ""
-		(uuid "1be93078-b6bc-4058-a4ea-919d6fa5137b")
-		(members "0195d6e1-cd69-4879-a1a3-77b91e9bc157" "03927e6c-aa1f-4559-a73e-1ce211623850"
-			"14e60fd4-a2c2-4b6c-9354-002a3b164650" "1e05add5-0bc1-4e41-8cad-9c26a6b23b61"
-			"316e09bc-e85f-483a-b78b-7eb527feb720" "318c2619-4ac2-4cd8-b4e7-0ae0c335fc6b"
-			"3643b813-422c-4449-a0e3-19682e96f4cc" "4522bbe2-2aab-4995-991f-e5d288e7a425"
-			"57057d72-70b9-415e-948c-fc167f80d765" "59397eb6-1c26-4c2a-b7bf-e7efa0edbc02"
-			"6261880e-76f5-4fd7-ae6c-92309a910f4a" "67256522-7ae8-4ded-8b34-14f087bc8046"
-			"6ad9c41b-95e5-4719-96de-e6da147a57e7" "785e5774-c8cc-4627-90ce-4206ae4da8b8"
-			"818dc9df-3558-428c-9c6a-cdff91b9821c" "93f6da05-399f-4a8b-af10-56c38c1b59ef"
-			"9dddddc3-5879-48c1-8117-b5b617660f69" "a1643861-7352-478d-b075-73de194ea65c"
-			"a886b162-b444-4fbf-8031-6dfd9aa39eb9" "ad678025-adc5-4c8c-bcb8-1056a20a5060"
-			"ade00a67-abaf-4fbe-9b9d-803ccc318a62" "ba722cb2-9ebe-4694-afb0-689f132afc19"
-			"d9ae1397-9153-4af0-a7d2-ecb3d882fd93" "dc283445-d79a-4d82-8c38-e6dcba3ce569"
-			"ddf8bc6d-ac97-41f5-ba0b-f10d693c22a4" "ef13afae-abd8-44f3-8c28-e2167c135182"
-			"f98748fe-82b5-41f9-ba66-f49323d1ac3c" "fab46041-6426-42aa-90cb-8731f18f0945"
 		)
 	)
 	(embedded_fonts no)
