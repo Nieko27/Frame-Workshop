@@ -3294,7 +3294,7 @@
 		(at 142.225 92.4 180)
 		(descr "SMD Tactile Switch, 3.9x3x2 mm, https://lcsc.com/datasheet/lcsc_datasheet_2504101957_XUNPU-TS-1088-AR02016_C720477.pdf")
 		(tags "Tactile Switch")
-		(property "Reference" "Reset"
+		(property "Reference" "SW1"
 			(at 0 -2.65 0)
 			(layer "F.SilkS")
 			(uuid "c77d695c-49f0-413d-9e5c-bc9feb6a297c")
@@ -5511,8 +5511,8 @@
 		(at 180.375 92.4)
 		(descr "SMD Tactile Switch, 3.9x3x2 mm, https://lcsc.com/datasheet/lcsc_datasheet_2504101957_XUNPU-TS-1088-AR02016_C720477.pdf")
 		(tags "Tactile Switch")
-		(property "Reference" "Boot"
-			(at 0 2.6 0)
+		(property "Reference" "SW2"
+			(at -0.175 -2.6 0)
 			(layer "F.SilkS")
 			(uuid "5cde7165-bafe-4b7e-98ed-649fd630e037")
 			(effects

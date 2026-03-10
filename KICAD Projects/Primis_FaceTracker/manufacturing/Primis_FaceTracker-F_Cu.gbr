@@ -1,12 +1,12 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,9.0.7*%
-%TF.CreationDate,2026-02-16T21:50:05-05:00*%
+%TF.CreationDate,2026-02-16T23:35:19-05:00*%
 %TF.ProjectId,Primis_FaceTracker,5072696d-6973-45f4-9661-636554726163,rev?*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Copper,L1,Top*%
 %TF.FilePolarity,Positive*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 9.0.7) date 2026-02-16 21:50:05*
+G04 Created by KiCad (PCBNEW 9.0.7) date 2026-02-16 23:35:19*
 %MOMM*%
 %LPD*%
 G01*
@@ -330,10 +330,10 @@ X141200000Y-106550000D03*
 X141200000Y-105000000D03*
 %TD*%
 D26*
-%TO.P,Reset,1,A*%
+%TO.P,SW1,1,A*%
 %TO.N,Net-(SW1-A)*%
 X144450000Y-92400000D03*
-%TO.P,Reset,2,B*%
+%TO.P,SW1,2,B*%
 %TO.N,GND*%
 X140000000Y-92400000D03*
 %TD*%
@@ -522,10 +522,10 @@ X198430000Y-86475000D03*
 X198430000Y-84650000D03*
 %TD*%
 D35*
-%TO.P,Boot,1,A*%
+%TO.P,SW2,1,A*%
 %TO.N,Net-(SW2-A)*%
 X178150000Y-92400000D03*
-%TO.P,Boot,2,B*%
+%TO.P,SW2,2,B*%
 %TO.N,GND*%
 X182600000Y-92400000D03*
 %TD*%
