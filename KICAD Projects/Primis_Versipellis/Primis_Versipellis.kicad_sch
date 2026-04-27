@@ -3371,6 +3371,12 @@
 		(uuid "e4787749-692e-4efe-9b17-83621825cb3f")
 	)
 	(junction
+		(at 231.14 219.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f2cd50c8-487a-475e-9770-8eab2dd2d1d7")
+	)
+	(junction
 		(at 53.34 186.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3427,6 +3433,10 @@
 	(no_connect
 		(at 157.48 160.02)
 		(uuid "89f56793-3561-488e-9f50-90e4c22b4696")
+	)
+	(no_connect
+		(at 238.76 229.87)
+		(uuid "ac528898-ef86-4df4-b8da-032d9587d06f")
 	)
 	(no_connect
 		(at 114.3 124.46)
@@ -3677,6 +3687,16 @@
 			(type default)
 		)
 		(uuid "360d0f5d-1eb1-4777-a4e8-d2bf08033e38")
+	)
+	(wire
+		(pts
+			(xy 231.14 219.71) (xy 231.14 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39720113-0a82-4eeb-a312-f54b3527177f")
 	)
 	(wire
 		(pts
@@ -4150,7 +4170,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 218.44) (xy 231.14 222.25)
+			(xy 231.14 218.44) (xy 231.14 219.71)
 		)
 		(stroke
 			(width 0)
@@ -5833,7 +5853,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_A_CNCTech_1001-011-01101_Horizontal"
+		(property "Footprint" "USB:USB05"
 			(at 226.06 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -8319,6 +8339,85 @@
 			(project "Primis_Versipellis"
 				(path "/bae96686-1706-45b6-9136-3a0b4f8a04e3"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 231.14 219.71 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da136545-5392-4360-be97-1b0d507d3be2")
+		(property "Reference" "#FLG05"
+			(at 233.045 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 234.95 219.7099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 231.14 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 231.14 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "48817dfc-c9cf-4993-a553-3c2b727338b7")
+		)
+		(instances
+			(project "Primis_Versipellis"
+				(path "/bae96686-1706-45b6-9136-3a0b4f8a04e3"
+					(reference "#FLG05")
 					(unit 1)
 				)
 			)

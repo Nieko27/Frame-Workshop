@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "USB") (type "KiCad") (uri "/home/merlin/Documents/GitHub/Frame-Workshop/KICAD Projects/_Shared/Footprints/USB.pretty") (options "") (descr ""))
+)
