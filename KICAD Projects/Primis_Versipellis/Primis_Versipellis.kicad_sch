@@ -315,346 +315,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:USB_A"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at -5.08 11.43 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "USB_A"
-				(at -5.08 8.89 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 3.81 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 3.81 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "USB Type A connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector USB"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "USB*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "USB_A_0_1"
-				(rectangle
-					(start -5.08 -7.62)
-					(end 5.08 7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center -3.81 2.159)
-					(radius 0.635)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.175 2.159) (xy -2.54 2.159) (xy -1.27 3.429) (xy -0.635 3.429)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 2.159) (xy -1.905 2.159) (xy -1.27 0.889) (xy 0 0.889)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.524 4.826)
-					(end -4.318 5.334)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -1.27 4.572)
-					(end -4.572 5.842)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -0.635 3.429)
-					(radius 0.381)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -0.127 -7.62)
-					(end 0.127 -6.858)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 0.254 1.27)
-					(end -0.508 0.508)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 2.794) (xy 0.635 1.524) (xy 1.905 2.159) (xy 0.635 2.794)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 5.08 4.953)
-					(end 4.318 5.207)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 5.08 -0.127)
-					(end 4.318 0.127)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 5.08 -2.667)
-					(end 4.318 -2.413)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "USB_A_1_1"
-				(polyline
-					(pts
-						(xy -1.905 2.159) (xy 0.635 2.159)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 7.62 5.08 180)
-					(length 2.54)
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 7.62 -2.54 180)
-					(length 2.54)
-					(name "D-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "D+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -10.16 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -10.16 90)
-					(length 2.54)
-					(name "Shield"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -2822,6 +2482,276 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "USB-05:USB-05"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 16.51 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "USB-05"
+				(at 16.51 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "USB05"
+				(at 16.51 -94.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/SOFNG-USB-05_C112454.pdf"
+				(at 16.51 -194.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "USB Connectors 4 Plug 1 Plugin RoHS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "3.17"
+				(at 16.51 -394.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "SOFNG"
+				(at 16.51 -494.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "USB-05"
+				(at 16.51 -594.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Part Number" ""
+				(at 16.51 -694.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" ""
+				(at 16.51 -794.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 16.51 -894.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 16.51 -994.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(symbol "USB-05_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 15.24 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 20.32 0 180)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -2.54 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -5.08 180)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -7.62 180)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -3127,7 +3057,7 @@
 	)
 	(rectangle
 		(start 200.66 65.786)
-		(end 239.268 105.41)
+		(end 254 105.41)
 		(stroke
 			(width 0)
 			(type dash)
@@ -3299,12 +3229,6 @@
 		(uuid "34ce327e-1ba2-4749-8f61-d672c9835207")
 	)
 	(junction
-		(at 214.63 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "469f9c95-bcb0-497c-9fe2-55bdd0eee6ef")
-	)
-	(junction
 		(at 55.88 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3339,6 +3263,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a6493c38-b3b5-43f5-8ba9-52e155daa246")
+	)
+	(junction
+		(at 214.63 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bd1abb85-cc19-4218-b26c-3ade76e16f0a")
 	)
 	(junction
 		(at 151.13 90.17)
@@ -3550,6 +3480,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 83.82) (xy 214.63 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13f7ed36-487b-4e57-8d7e-f8d591d0b6c5")
+	)
+	(wire
+		(pts
 			(xy 66.04 238.76) (xy 71.12 238.76)
 		)
 		(stroke
@@ -3560,13 +3500,13 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 91.44) (xy 229.87 97.79)
+			(xy 240.03 86.36) (xy 245.11 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1782e845-90a8-483a-a093-7c83e959e59b")
+		(uuid "17159f2f-6472-4487-a9d5-8921009cb346")
 	)
 	(wire
 		(pts
@@ -3650,16 +3590,6 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 97.79) (xy 234.95 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32919b59-3105-4300-a930-da9bcf381e3f")
-	)
-	(wire
-		(pts
 			(xy 231.14 237.49) (xy 231.14 240.03)
 		)
 		(stroke
@@ -3697,16 +3627,6 @@
 			(type default)
 		)
 		(uuid "39720113-0a82-4eeb-a312-f54b3527177f")
-	)
-	(wire
-		(pts
-			(xy 218.44 76.2) (xy 218.44 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3dcea5ad-ae84-4137-af0a-8c26c9bef9e2")
 	)
 	(wire
 		(pts
@@ -3757,6 +3677,16 @@
 			(type default)
 		)
 		(uuid "434214e0-bbdc-41b3-9fa9-18dbde62d859")
+	)
+	(wire
+		(pts
+			(xy 209.55 88.9) (xy 219.71 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44609a89-8ddf-410f-bdd5-18d980538e8a")
 	)
 	(wire
 		(pts
@@ -3887,16 +3817,6 @@
 			(type default)
 		)
 		(uuid "6434ad77-46c6-4b09-8274-9a0cb0c145ad")
-	)
-	(wire
-		(pts
-			(xy 218.44 73.66) (xy 214.63 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "643757e7-5ed1-4d13-9954-7e44f9b2be38")
 	)
 	(wire
 		(pts
@@ -4120,16 +4040,6 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 83.82) (xy 222.25 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d5aa7c8-e2c4-4567-b9ca-c98aa2dd3f14")
-	)
-	(wire
-		(pts
 			(xy 223.52 229.87) (xy 195.58 229.87)
 		)
 		(stroke
@@ -4200,16 +4110,6 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 91.44) (xy 232.41 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad003134-51a8-44ca-96d7-1ffb8941f339")
-	)
-	(wire
-		(pts
 			(xy 35.56 186.69) (xy 27.94 186.69)
 		)
 		(stroke
@@ -4227,6 +4127,16 @@
 			(type default)
 		)
 		(uuid "b2a015b5-1348-4eb5-958d-c15a34d32f9c")
+	)
+	(wire
+		(pts
+			(xy 214.63 83.82) (xy 219.71 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b61c20e2-6023-4dc5-bbb0-64ed2b0dd7c7")
 	)
 	(wire
 		(pts
@@ -4270,6 +4180,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 91.44) (xy 219.71 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca9db9e1-3bd6-47aa-a28b-d649f72e704e")
+	)
+	(wire
+		(pts
 			(xy 91.44 190.5) (xy 72.39 190.5)
 		)
 		(stroke
@@ -4310,16 +4230,6 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 81.28) (xy 222.25 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dab7e8a8-8238-481e-9a41-a68a60d12f21")
-	)
-	(wire
-		(pts
 			(xy 43.18 186.69) (xy 53.34 186.69)
 		)
 		(stroke
@@ -4327,26 +4237,6 @@
 			(type default)
 		)
 		(uuid "dbf8bbf4-e39b-4244-88e9-19547316e73b")
-	)
-	(wire
-		(pts
-			(xy 222.25 76.2) (xy 218.44 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc1f5dbc-5200-4835-af75-2109c3ec1bde")
-	)
-	(wire
-		(pts
-			(xy 214.63 73.66) (xy 210.82 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc41da61-cdf2-4d5c-b68b-95835613e646")
 	)
 	(wire
 		(pts
@@ -4377,6 +4267,16 @@
 			(type default)
 		)
 		(uuid "e4e65576-34d2-48b2-bfe3-9290b9637a6b")
+	)
+	(wire
+		(pts
+			(xy 240.03 83.82) (xy 245.11 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e659f8c8-17e9-4eed-b7cd-b0cd0eaf9006")
 	)
 	(wire
 		(pts
@@ -4450,6 +4350,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 86.36) (xy 219.71 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd785f2d-5e0c-430c-bd64-b65e7e3259a0")
+	)
+	(wire
+		(pts
 			(xy 58.42 196.85) (xy 63.5 196.85)
 		)
 		(stroke
@@ -4506,9 +4416,9 @@
 			)
 		)
 	)
-	(global_label "D-"
+	(global_label "D+"
 		(shape input)
-		(at 218.44 83.82 180)
+		(at 209.55 88.9 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4516,9 +4426,9 @@
 			)
 			(justify right)
 		)
-		(uuid "0d6a7349-d373-46d0-85e3-2810901f7dae")
+		(uuid "12800466-a4a3-422c-972d-6318316741c4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 212.6124 83.82 0)
+			(at 203.7224 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4698,9 +4608,9 @@
 			)
 		)
 	)
-	(global_label "D+"
+	(global_label "D-"
 		(shape input)
-		(at 218.44 81.28 180)
+		(at 209.55 86.36 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4708,9 +4618,9 @@
 			)
 			(justify right)
 		)
-		(uuid "75dcc14a-231a-403d-8337-7d888a1a9ed3")
+		(uuid "636717a9-2584-46cc-92e2-09fa8136ada6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 212.6124 81.28 0)
+			(at 203.7224 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4759,6 +4669,30 @@
 		(uuid "89625b23-7016-40a9-b1e9-8d4ef8ac21af")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 21.5681 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "VBUS"
+		(shape input)
+		(at 209.55 83.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a6706a73-ac2e-4ac4-b85c-3e4aec92fc74")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 201.6662 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4831,30 +4765,6 @@
 		(uuid "de5d6088-f40f-48d1-8ab3-5b28ed05796a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 180.0763 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "VBUS"
-		(shape input)
-		(at 210.82 73.66 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ea1eab8a-4f7e-4168-afcc-7fbbf448afa8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 202.9362 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5100,84 +5010,6 @@
 			(project "Primis_Versipellis"
 				(path "/bae96686-1706-45b6-9136-3a0b4f8a04e3"
 					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 229.87 97.79 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "142081b5-bfbb-4c03-8e80-0eb862dc06ce")
-		(property "Reference" "#PWR024"
-			(at 229.87 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 229.87 102.87 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 229.87 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 229.87 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 229.87 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f7018a4a-002d-4f73-b3f9-b0f3df277b8b")
-		)
-		(instances
-			(project "Primis_Versipellis"
-				(path "/bae96686-1706-45b6-9136-3a0b4f8a04e3"
-					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -5665,6 +5497,184 @@
 		)
 	)
 	(symbol
+		(lib_id "USB-05:USB-05")
+		(at 240.03 83.82 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1eeb42a7-01cb-442c-b0e4-bb0aa5368f4f")
+		(property "Reference" "J1"
+			(at 229.87 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB-05"
+			(at 229.87 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Veri:USB05"
+			(at 223.52 178.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/SOFNG-USB-05_C112454.pdf"
+			(at 223.52 278.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "USB Connectors 4 Plug 1 Plugin RoHS"
+			(at 240.03 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "3.17"
+			(at 223.52 478.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "SOFNG"
+			(at 223.52 578.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "USB-05"
+			(at 223.52 678.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 223.52 778.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 223.52 878.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 223.52 978.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 223.52 1078.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "4"
+			(uuid "2e390e4d-a494-4bbb-b2ad-1f40174fea6e")
+		)
+		(pin "3"
+			(uuid "4702103d-fb42-4348-bf0e-e8e0e06e52da")
+		)
+		(pin "2"
+			(uuid "2725673d-fc9e-40e1-b2c8-72bbfcf08400")
+		)
+		(pin "1"
+			(uuid "c6e1e10c-9245-4bae-a7a7-72084c65e4e8")
+		)
+		(pin "6"
+			(uuid "ddd5547f-1d06-471a-8874-2819899ee6b9")
+		)
+		(pin "5"
+			(uuid "1ac58d42-9a19-44f0-bd63-3203f2f8d757")
+		)
+		(instances
+			(project "Primis_Versipellis"
+				(path "/bae96686-1706-45b6-9136-3a0b4f8a04e3"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 219.71 172.72 0)
 		(unit 1)
@@ -5738,173 +5748,6 @@
 			(project "Primis_Versipellis"
 				(path "/bae96686-1706-45b6-9136-3a0b4f8a04e3"
 					(reference "#PWR035")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 234.95 97.79 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "295dc2b2-f6ba-400e-bbe1-e2095a60462f")
-		(property "Reference" "#PWR025"
-			(at 234.95 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 234.95 102.87 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 234.95 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 234.95 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 234.95 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a7a63e08-2b3b-41f1-a91b-33f8fa86544b")
-		)
-		(instances
-			(project "Primis_Versipellis"
-				(path "/bae96686-1706-45b6-9136-3a0b4f8a04e3"
-					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:USB_A")
-		(at 229.87 81.28 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2bef37cd-c007-415a-9d8a-ae6eea8fda35")
-		(property "Reference" "J2"
-			(at 229.87 68.58 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "USB_A"
-			(at 229.87 71.12 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "USB:USB05"
-			(at 226.06 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 226.06 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "USB Type A connector"
-			(at 229.87 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "09594bc8-6f8c-42be-beb3-61123ef43282")
-		)
-		(pin "5"
-			(uuid "ccbbf3db-8c24-4936-a185-e2fdc5648c5b")
-		)
-		(pin "4"
-			(uuid "f79cf8ca-43e1-48cc-b61d-b8b4c21d8462")
-		)
-		(pin "1"
-			(uuid "a964a9cb-bf73-47a4-bff2-3f57f3738dc5")
-		)
-		(pin "3"
-			(uuid "19b25803-933a-43de-96a0-8e6d9e9e6f12")
-		)
-		(instances
-			(project "Primis_Versipellis"
-				(path "/bae96686-1706-45b6-9136-3a0b4f8a04e3"
-					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -6621,6 +6464,85 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 245.11 83.82 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6cafc544-beda-467f-a9ea-8281c13b7db9")
+		(property "Reference" "#PWR027"
+			(at 251.46 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 248.92 83.8199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 245.11 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 245.11 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 245.11 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "43283572-0066-46a5-8b27-99cb47f975b4")
+		)
+		(instances
+			(project "Primis_Versipellis"
+				(path "/bae96686-1706-45b6-9136-3a0b4f8a04e3"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 63.5 196.85 90)
 		(unit 1)
 		(body_style 1)
@@ -7232,84 +7154,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 214.63 73.66 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a2aa8ba2-3dbb-486c-b3c5-8525f2022f9b")
-		(property "Reference" "#FLG01"
-			(at 214.63 71.755 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 214.63 68.58 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 214.63 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 214.63 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 214.63 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c5283894-defe-4e2c-89db-e087e4d68431")
-		)
-		(instances
-			(project "Primis_Versipellis"
-				(path "/bae96686-1706-45b6-9136-3a0b4f8a04e3"
-					(reference "#FLG01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 73.66 163.83 0)
 		(unit 1)
@@ -7382,6 +7226,84 @@
 			(project "Primis_Versipellis"
 				(path "/bae96686-1706-45b6-9136-3a0b4f8a04e3"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 214.63 83.82 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b00b250f-35f3-49d5-8ae3-3e00f78551cc")
+		(property "Reference" "#FLG06"
+			(at 214.63 81.915 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 214.63 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 214.63 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 214.63 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2cc78274-1c79-4e7a-acf5-b663389e9444")
+		)
+		(instances
+			(project "Primis_Versipellis"
+				(path "/bae96686-1706-45b6-9136-3a0b4f8a04e3"
+					(reference "#FLG06")
 					(unit 1)
 				)
 			)
@@ -8746,6 +8668,85 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 209.55 91.44 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e3546116-c1e7-459e-88a2-907dc07e8c3f")
+		(property "Reference" "#PWR026"
+			(at 203.2 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 205.74 91.4399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 209.55 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 209.55 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7801cd52-a1cc-44cc-b6a0-98c6d8d29f43")
+		)
+		(instances
+			(project "Primis_Versipellis"
+				(path "/bae96686-1706-45b6-9136-3a0b4f8a04e3"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 165.1 195.58 270)
 		(unit 1)
 		(body_style 1)
@@ -8979,6 +8980,85 @@
 			(project "Primis_Versipellis"
 				(path "/bae96686-1706-45b6-9136-3a0b4f8a04e3"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 245.11 86.36 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f90f5203-d01b-4144-979e-49ca54c61341")
+		(property "Reference" "#PWR028"
+			(at 251.46 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 248.92 86.3599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 245.11 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 245.11 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 245.11 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "de3d5981-97fd-4041-9309-37f00fc03b38")
+		)
+		(instances
+			(project "Primis_Versipellis"
+				(path "/bae96686-1706-45b6-9136-3a0b4f8a04e3"
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)

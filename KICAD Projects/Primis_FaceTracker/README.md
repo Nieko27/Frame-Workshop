@@ -19,3 +19,9 @@ Headset-agnostic face tracker. Can be used with Frame by using the USB-C port on
 <p align="left">
   <img src="FT_PCB.png" alt="Banner" />
 </p>
+
+### EV2
+<p align="left">
+  <img src="FT_REAL.jpg" alt="Banner" />
+</p>
+
