@@ -1,6 +1,6 @@
 Comment,Designator,Footprint,LCSC,Quantity
 1.2pF,C5,C_0603_1608Metric,,1
-Conn_01x05_Pin,J3,PinHeader_1x05_P1.00mm_Vertical,,1
+Conn_01x05_Pin,J3,PinHeader_1x05_P1.27mm_Vertical,,1
 2R2,R8,R_0805_2012Metric,,1
 1.0pF,C6,C_0603_1608Metric,,1
 12pF,C4,C_0603_1608Metric,,1
