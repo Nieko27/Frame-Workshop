@@ -15,6 +15,10 @@ Below is a list of all currently in development hardware projects, including a b
 ### Frame Facetracker
 The Frame face tracker is pretty self-explanatory: it is a module that uses a camera for face tracking in social experiences like VRChat. There are 2 versions planned: one built with the steam frame in mind, using its expansion ports, and another that plugs into the back USB port of the frame and uses an ESP32 to run the camera.
 
+<p align="left">
+  <img src="facetracker.jpg" alt="Banner" />
+</p>
+
 Link to the facetracker files:
 https://github.com/Nieko27/FrameWork/tree/main/KICAD%20Projects/Primis_FaceTracker
 

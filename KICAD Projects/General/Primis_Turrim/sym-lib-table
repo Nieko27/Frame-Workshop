@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "JLCImport")(type "KiCad")(uri "${KIPRJMOD}/JLCImport.kicad_sym")(options "")(descr ""))
+  (lib (name "primis2")(type "KiCad")(uri "${KIPRJMOD}/primis2.kicad_sym")(options "")(descr ""))
+)
