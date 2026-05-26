@@ -18,12 +18,18 @@ The Frame face tracker is pretty self-explanatory: it is a module that uses a ca
 <p align="left">
   <img src="facetracker.jpg" alt="Banner" />
 </p>
+> (Headset-Agnostic Version)
 
 Link to the facetracker files:
 https://github.com/Nieko27/FrameWork/tree/main/KICAD%20Projects/Primis_FaceTracker
 
 ### Versipellis (General Purpose Dongle)
 Versipellis is a dongle utilising an nRF52833 intended as a general-purpose dongle for communicating with any Frame-based hardware, whether it be controllers or trackers. It will be programmable by the end user for whatever they intend to use it for. There will be two versions: one utilising no parts smaller than a 0603 package, making it easy to hand-assemble, and another using much smaller parts that, while smaller, will require assembly by a service like JLCPCB.
+
+<p align="left">
+  <img src="VERI.jpg" alt="Banner" />
+</p>
+> (Hand-assemblable)
 
 Link to Versipellis' files:
 https://github.com/Nieko27/FrameWork/tree/main/KICAD%20Projects/Primis_Versipellis

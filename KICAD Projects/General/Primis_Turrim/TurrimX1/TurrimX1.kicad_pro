@@ -69,7 +69,18 @@
           "thermal_relief_spoke_width": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        },
+        {
+          "gap": 0.3,
+          "via_gap": 0.5,
+          "width": 0.3
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -140,23 +151,23 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
-        "min_connection": 0.0,
+        "min_clearance": 0.152,
+        "min_connection": 0.152,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.25,
-        "min_hole_to_hole": 0.25,
+        "min_hole_clearance": 0.254,
+        "min_hole_to_hole": 0.254,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
-        "min_text_thickness": 0.08,
+        "min_text_thickness": 0.1,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.2,
-        "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.0,
+        "min_track_width": 0.152,
+        "min_via_annular_width": 0.15,
+        "min_via_diameter": 0.6,
+        "solder_mask_to_copper_clearance": 0.1,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -203,7 +214,11 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.3,
+        0.5
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -230,7 +245,16 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        },
+        {
+          "diameter": 0.7,
+          "drill": 0.3
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -449,7 +473,6 @@
       "footprint_filter": "ignore",
       "footprint_link_issues": "warning",
       "four_way_junction": "ignore",
-      "global_label_dangling": "warning",
       "ground_pin_not_ground": "warning",
       "hier_label_mismatch": "error",
       "isolated_pin_label": "warning",
@@ -489,7 +512,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Locus.kicad_pro",
+    "filename": "TurrimX1.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -523,14 +546,10 @@
   },
   "pcbnew": {
     "last_paths": {
-      "gencad": "",
       "idf": "",
       "netlist": "",
       "plot": "",
-      "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
-      "svg": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -641,33 +660,25 @@
     "meta": {
       "version": 1
     },
-    "net_format_name": "",
     "page_layout_descr_file": "",
     "plot_directory": "",
     "reuse_designators": true,
-    "space_save_all_events": true,
-    "spice_current_sheet_as_root": false,
-    "spice_external_command": "spice \"%I\"",
-    "spice_model_current_sheet_as_root": true,
-    "spice_save_all_currents": false,
-    "spice_save_all_dissipations": false,
-    "spice_save_all_voltages": false,
     "subpart_first_id": 65,
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "Locus.kicad_sch",
-        "name": "Locus",
-        "uuid": "8e17d12c-306f-49f2-b019-6304154a30db"
+        "filename": "TurrimX1.kicad_sch",
+        "name": "TurrimX1",
+        "uuid": "4b20d6be-9144-4e31-8534-9aa2a02f9f06"
       }
     ],
-    "used_designators": "Y2,#PWR26-27,J1,J4,R9",
+    "used_designators": "H1-4",
     "variants": []
   },
   "sheets": [
     [
-      "8e17d12c-306f-49f2-b019-6304154a30db",
-      "Locus"
+      "4b20d6be-9144-4e31-8534-9aa2a02f9f06",
+      "TurrimX1"
     ]
   ],
   "text_variables": {},

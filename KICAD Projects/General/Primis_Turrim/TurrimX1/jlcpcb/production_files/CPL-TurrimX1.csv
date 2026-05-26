@@ -1,0 +1,9 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+H1,m2,MountingHole_2.2mm_M2,163.5,-88.0,0.0,top
+H2,m2,MountingHole_2.2mm_M2,119.5,-88.0,0.0,top
+H3,m2,MountingHole_2.2mm_M2,163.5,-111.0,0.0,top
+H4,m2,MountingHole_2.2mm_M2,119.5,-111.0,0.0,top
+J1,USB_C_Receptacle_USB2.0_16P,USB_C_Receptacle_HRO_TYPE-C-31-M-12,158.585,-99.52,270.0,top
+J2,USB_A,USB_A_Molex_105057_Vertical,122.76,-99.4,90.0,top
+R1,5.1K,R_0805_2012Metric,151.2875,-101.2,180.0,top
+R2,5.1K,R_0805_2012Metric,151.2875,-96.8,180.0,top
