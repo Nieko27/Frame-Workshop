@@ -18,8 +18,8 @@ The Frame face tracker is pretty self-explanatory: it is a module that uses a ca
 <p align="left">
   <img src="facetracker.jpg" alt="Banner" />
 </p>
-> (Headset-Agnostic Version)
-
+> Headset-Agnostic Version
+<br>
 Link to the facetracker files:
 https://github.com/Nieko27/FrameWork/tree/main/KICAD%20Projects/Primis_FaceTracker
 
@@ -29,8 +29,8 @@ Versipellis is a dongle utilising an nRF52833 intended as a general-purpose dong
 <p align="left">
   <img src="VERI.jpg" alt="Banner" />
 </p>
-> (Hand-assemblable)
-
+> Hand-assemblable
+<br>
 Link to Versipellis' files:
 https://github.com/Nieko27/FrameWork/tree/main/KICAD%20Projects/Primis_Versipellis
 
