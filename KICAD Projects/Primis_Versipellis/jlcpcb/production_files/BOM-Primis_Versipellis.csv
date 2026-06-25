@@ -1,11 +1,9 @@
 Comment,Designator,Footprint,LCSC,Quantity
 1.2pF,C5,C_0603_1608Metric,,1
-Conn_01x05_Pin,J3,PinHeader_1x05_P1.27mm_Vertical,,1
 2R2,R8,R_0805_2012Metric,,1
 1.0pF,C6,C_0603_1608Metric,,1
 12pF,C4,C_0603_1608Metric,,1
 4.7uF,C2,C_0603_1608Metric,,1
-10k,R2,R_0603_1608Metric,,1
 USB-05,J1,USB05,,1
 WS2812B-2020,D3,LED_WS2812B-2020_PLCC4_2.0x2.0mm,,1
 4.7uF,C9,C_0603_1608Metric,,1
@@ -22,6 +20,7 @@ N.C.,C30,C_0603_1608Metric,,1
 Crystal_GND24,Y2,Crystal_SMD_Abracon_ABM8G-4Pin_3.2x2.5mm,,1
 100nF,C10,C_0603_1608Metric,,1
 2.2nH,L2,L_0603_1608Metric,,1
+10k,R3,R_0603_1608Metric,,1
 4.7nH,L1,L_0603_1608Metric,,1
 100nF,C1,C_0603_1608Metric,,1
 100nF,C12,C_0603_1608Metric,,1

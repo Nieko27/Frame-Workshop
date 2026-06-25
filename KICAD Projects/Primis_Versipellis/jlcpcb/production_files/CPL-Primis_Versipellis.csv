@@ -5,7 +5,7 @@ C11,1.0uF,C_0603_1608Metric,148.5,-64.05,90.0,top
 C12,100nF,C_0603_1608Metric,139.225,-60.6,0.0,top
 C2,4.7uF,C_0603_1608Metric,148.5,-76.275,-90.0,top
 C29,1.0uF,C_0603_1608Metric,151.275,-60.0,0.0,top
-C3,12pF,C_0603_1608Metric,161.0,-60.5,0.0,top
+C3,12pF,C_0603_1608Metric,158.775,-60.5,0.0,top
 C30,N.C.,C_0603_1608Metric,160.775,-70.5,180.0,top
 C31,100pF,C_0603_1608Metric,160.725,-68.5,0.0,top
 C4,12pF,C_0603_1608Metric,160.775,-66.5,180.0,top
@@ -19,11 +19,11 @@ D3,WS2812B-2020,LED_WS2812B-2020_PLCC4_2.0x2.0mm,144.285,-59.85,90.0,top
 H1,MountingHole,MountingHole_2.2mm_M2,134.0,-79.0,0.0,top
 H2,MountingHole,MountingHole_2.2mm_M2,134.0,-60.0,0.0,top
 J1,USB-05,USB05,128.09525,-69.5,-90.0,top
-J3,Conn_01x05_Pin,PinHeader_1x05_P1.27mm_Vertical,136.6,-66.34,0.0,top
+J2,Conn_ARM_SWD_TagConnect_TC2030-NL,Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical,135.0,-66.46,-90.0,top
 L1,4.7nH,L_0603_1608Metric,159.2125,-74.0,180.0,top
 L2,2.2nH,L_0603_1608Metric,164.7875,-74.0,180.0,top
 R1,1.0k,R_0603_1608Metric,155.425,-60.6,0.0,top
-R2,10k,R_0603_1608Metric,139.905,-66.755,0.0,top
+R3,10k,R_0603_1608Metric,139.675,-66.5,0.0,top
 R8,2R2,R_0805_2012Metric,142.5,-74.0,180.0,top
 U1,nRF52833_QDxx,QFN-40-1EP_5x5mm_P0.4mm_EP3.6x3.6mm,151.5,-69.5,270.0,top
-Y2,Crystal_GND24,Crystal_SMD_Abracon_ABM8G-4Pin_3.2x2.5mm,164.525,-63.575,0.0,top
+Y2,Crystal_GND24,Crystal_SMD_Abracon_ABM8G-4Pin_3.2x2.5mm,160.6,-63.65,0.0,top
