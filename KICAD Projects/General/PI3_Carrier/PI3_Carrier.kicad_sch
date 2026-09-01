@@ -1,0 +1,20 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "2c2d536a-e708-4aed-a4cf-6d97b4c3a957")
+	(paper "A4")
+	(title_block
+		(title "PI3 CARRIER")
+		(date "2026-05-18")
+		(rev "EV1")
+		(company "PRIMIS")
+	)
+	(lib_symbols)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
