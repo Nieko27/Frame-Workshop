@@ -10205,7 +10205,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_SMD_Abracon_ABM8G-4Pin_3.2x2.5mm"
+		(property "Footprint" "primis2:NX2016SA-32MHZ-STD-CZS-5"
 			(at 48.26 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -12192,7 +12192,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm"
+		(property "Footprint" "primis2:SC-20S32_768kHz20PPM9pF"
 			(at 184.15 135.89 0)
 			(hide yes)
 			(show_name no)
