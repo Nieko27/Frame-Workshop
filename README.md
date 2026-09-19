@@ -19,7 +19,7 @@ The Frame face tracker is pretty self-explanatory: it is a module that uses a ca
   <img src="facetracker.jpg" alt="Banner" />
 </p>
 
->Headset-Agnostic Version
+>Headset-Agnostic Version EV2
 
 <br>
 Link to the facetracker files:
@@ -32,14 +32,21 @@ Versipellis is a dongle utilising an nRF52833 intended as a general-purpose dong
   <img src="VERI.jpg" alt="Banner" />
 </p>
 
->Hand-assemblable
+>Hand-assemblable EV1
 
 <br>
 Link to Versipellis' files:
 https://github.com/Nieko27/FrameWork/tree/main/KICAD%20Projects/Primis_Versipellis
+<br>
+Link to VeriMini files:
+https://github.com/Nieko27/FrameWork/tree/main/KICAD%20Projects/Primis_Versipellis
 
 ### Locus (Tracker)
 Locus is intended to be a tracker like Vive or Tundra, but without reliance on lighthouse base stations. Since the Steam Frame isn’t limited to base station vision, trackers being used with it shouldn’t be either. Similar to Versipellis, Locus will also use an nRF52833 along with an LSM6DSV16X IMU and a QMC6309 magnetometer. The idea is that it will track similarly to a slime tracker, but also use the Steam Frame’s optical tracking to address the drift problem of EMF trackers. 
+
+<p align="left">
+  <img src="LOCUS.jpg" alt="Banner" />
+</p>
 
 Link to Locus' files:
 https://github.com/Nieko27/FrameWork/tree/main/KICAD%20Projects/Primis_Locus
@@ -54,3 +61,7 @@ https://github.com/Nieko27/FrameWork/tree/main/KICAD%20Projects/Primis_Locus
 
 ## Ideas
 A few ideas for possible mods for the Frame have already been thrown around. If you have an idea for a mod, whether it's a full module or as simple as a 3D-printable counterweight, feel free to open a pull request under the enhancement tag. You may also feel free to email me at nieko972@gmail.com.
+
+### Future Projects
+* USB Hub (Waiting on CAD files)
+* Index speaker mod kit
