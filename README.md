@@ -51,9 +51,13 @@ Locus is intended to be a tracker like Vive or Tundra, but without reliance on l
 Link to Locus' files:
 https://github.com/Nieko27/FrameWork/tree/main/KICAD%20Projects/Primis_Locus
 
+### Future Projects
+* USB Hub (Waiting on CAD files)
+* Index speaker mod kit
+
 ## Project Goals
 
-* Keep costs to the users as low as possible. You've probably already spent close to $1000 on the headset itself, so it would be nice not to have to spend another $1000 customizing it to your liking. How this would be achieved is by everything being open and nothing being sold, for example I’m working on a face tracker that takes advantage of the PCIe port on the Frame, the idea is when its done instead of me having to handle production, shipping and all the joys of selling a project I give the source files out with a tutorial on how to order it yourself from a company like JLCPCB. Now, obviously, this still won't be free to the end user, but it will be much cheaper than if I were to sell it. For example, I have made the first prototype of the face-tracker, and in small quantities (5 to be exact), it cost me $25 per board. Compare that to something like the old Vive face trackers, which I think were closer to $100, and you save a nice bit of money. 
+* Keep costs to the users as low as possible. You've already spent over a $1000 on the headset itself, so it would be nice not to have to spend another $1000 customizing it to your liking. How this would be achieved is by everything being open and nothing being sold, for example I’m working on a face tracker that takes advantage of the PCIe port on the Frame, the idea is when its done instead of me having to handle production, shipping and all the joys of selling a project I give the source files out with a tutorial on how to order it yourself from a company like JLCPCB. Now, obviously, this still won't be free to the end user, but it will be much cheaper than if I were to sell it. For example, I have made the first prototype of the face-tracker, and in small quantities (5 to be exact), it cost me $25 per board. Compare that to something like the old Vive face trackers, which I think were closer to $100, and you save a nice bit of money. 
 
 * Give the end user total control over the hardware. Don't like how I've done something? Fire up Blender or KiCad and change it yourself to fit whatever need you have in mind. I know not everyone will be able to do this, as it requires familiarity with the software, but it gives people the ability to do so. Obviously, with this in mind, I want to make the experience for everyone as smooth as possible out of the box, so I will be listening to feedback as much as possible to achieve that. 
 
@@ -62,6 +66,6 @@ https://github.com/Nieko27/FrameWork/tree/main/KICAD%20Projects/Primis_Locus
 ## Ideas
 A few ideas for possible mods for the Frame have already been thrown around. If you have an idea for a mod, whether it's a full module or as simple as a 3D-printable counterweight, feel free to open a pull request under the enhancement tag. You may also feel free to email me at nieko972@gmail.com.
 
-### Future Projects
-* USB Hub (Waiting on CAD files)
-* Index speaker mod kit
+### Find me on
+* Twitter; https://x.com/Merlinr271
+* Bluesky; https://bsky.app/profile/merlin271.bsky.social
