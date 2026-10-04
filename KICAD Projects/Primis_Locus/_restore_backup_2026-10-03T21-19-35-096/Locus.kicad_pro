@@ -271,7 +271,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "EV2"
+      "sch_revision": "EV1"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -692,7 +692,7 @@
         "uuid": "8e17d12c-306f-49f2-b019-6304154a30db"
       }
     ],
-    "used_designators": "#FLG1-4,L3-5,SW1,AE1,C14-16,C18,C20-23,D1-5,U3-5,#PWR17-25,#PWR28-33,#PWR36-43,Y1,Y3,CN1,J1,LED1,TP1-4,R1-7,R9-16,X1",
+    "used_designators": "L3-5,#FLG1-4,SW1,AE1,C14-16,C18,C20-23,D1-5,U3-5,Y1,Y3,#PWR17,#PWR19-25,#PWR28-33,#PWR36-43,J1,CN1,TP1-4,LED1,R1-7,R9-16,X1",
     "variants": []
   },
   "sheets": [

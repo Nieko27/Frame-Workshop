@@ -5649,10 +5649,6 @@
 		(uuid "32ae2fb7-cded-47cf-9fb5-b1115311d0de")
 	)
 	(no_connect
-		(at 128.27 120.65)
-		(uuid "4483b89a-840a-402d-a862-9dde1c6c605c")
-	)
-	(no_connect
 		(at 275.59 179.07)
 		(uuid "4e96c0a0-8301-46a8-a4ad-3e24551fd386")
 	)
