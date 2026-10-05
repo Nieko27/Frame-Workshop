@@ -89,7 +89,7 @@
         "annular_width": "error",
         "clearance": "error",
         "connection_width": "warning",
-        "copper_edge_clearance": "ignore",
+        "copper_edge_clearance": "error",
         "copper_sliver": "warning",
         "courtyards_overlap": "error",
         "creepage": "error",
@@ -125,12 +125,12 @@
         "padstack": "warning",
         "pth_inside_courtyard": "error",
         "shorting_items": "error",
-        "silk_edge_clearance": "ignore",
-        "silk_over_copper": "ignore",
-        "silk_overlap": "ignore",
+        "silk_edge_clearance": "warning",
+        "silk_over_copper": "warning",
+        "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
-        "starved_thermal": "ignore",
+        "starved_thermal": "error",
         "text_height": "warning",
         "text_on_edge_cuts": "error",
         "text_thickness": "warning",
@@ -692,7 +692,7 @@
         "uuid": "8e17d12c-306f-49f2-b019-6304154a30db"
       }
     ],
-    "used_designators": "TP1-4,LED1,X1,R1-7,R9-16,#FLG1-4,L3-5,SW1,AE1,C14-16,C18,C20-23,D1-5,U3-5,#PWR17-25,#PWR28-33,#PWR36-43,Y1,Y3,CN1,J1",
+    "used_designators": "C14-16,C18,C20-23,U3-5,D1-5,#PWR17-25,#PWR28-33,#PWR36-43,Y1,Y3,CN1,J1,LED1,TP1-4,R1-7,R9-16,X1,L3-5,#FLG1-4,AE1,SW1",
     "variants": []
   },
   "sheets": [
