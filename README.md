@@ -42,7 +42,7 @@ Link to VeriMini files:
 https://github.com/Nieko27/FrameWork/tree/main/KICAD%20Projects/Primis_Versipellis
 
 ### Locus (Tracker)
-Locus is intended to be a tracker like Vive or Tundra, but without reliance on lighthouse base stations. Since the Steam Frame isn’t limited to base station vision, trackers being used with it shouldn’t be either. Similar to Versipellis, Locus will also use an nRF52833 along with an LSM6DSV16X IMU and a QMC6309 magnetometer. The idea is that it will track similarly to a slime tracker, but also use the Steam Frame’s optical tracking to address the drift problem of EMF trackers. 
+Locus is intended to be a tracker like Vive or Tundra, but without reliance on lighthouse base stations. Since the Steam Frame isn’t limited to base station vision, trackers being used with it shouldn’t be either. Similar to Versipellis, Locus will also use an nRF52833 along with an LSM6DSV16X IMU. The idea is that it will track similarly to a slime tracker, but also use the Steam Frame’s optical tracking to address the drift problem of EMF trackers. 
 
 <p align="left">
   <img src="LOCUS.jpg" alt="Banner" />
