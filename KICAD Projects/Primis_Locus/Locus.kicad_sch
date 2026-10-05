@@ -17745,10 +17745,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "fe280385-c05a-4845-83e5-c8dd0d3c5189")
 		(property "Reference" "R2"
-			(at 227.33 55.8799 0)
+			(at 226.568 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17759,7 +17758,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 227.33 58.4199 0)
+			(at 226.314 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
