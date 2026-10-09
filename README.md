@@ -5,6 +5,7 @@ A forewarning, I am very new to electronics design in general. I apologize in ad
 <p align="center">
   <img src="FrameWork_Banner.png" alt="Banner" />
 </p>
+
 ## Offical CAD and Electronic files from Valve
 If you are looking for Valves offical CAD and electronic information for the Frame it can be found here;
 https://gitlab.steamos.cloud/SteamHardware/SteamFrame/-/tree/master
