@@ -5,6 +5,9 @@ A forewarning, I am very new to electronics design in general. I apologize in ad
 <p align="center">
   <img src="FrameWork_Banner.png" alt="Banner" />
 </p>
+## Offical CAD and Electronic files from Valve
+If you are looking for Valves offical CAD and electronic information for the Frame it can be found here;
+https://gitlab.steamos.cloud/SteamHardware/SteamFrame/-/tree/master
 
 # What is Frame Workshop?
 Frame Workshop is intended to be an open-source bundle of different hardware peripherals built around (but not always exclusive to) the Steam Frame. The idea is to leverage the Steam Frames' modularity and general openness to create a collection of open-source hardware projects that the community can provide feedback on, expand upon, or even take and turn into something entirely new, creating a feedback loop that adds to an ever-expanding ecosystem for the Steam Frame. All source files, from schematics to STLs, will be included, allowing every aspect of each project to be modified and produced to anyone’s preferences. 
