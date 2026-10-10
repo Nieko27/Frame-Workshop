@@ -56,7 +56,7 @@ Link to Locus' files:
 https://github.com/Nieko27/FrameWork/tree/main/KICAD%20Projects/Primis_Locus
 
 ### Future Projects
-* USB Hub (Waiting on CAD files)
+* USB Hub
 * Index speaker mod kit
 
 ## Project Goals
