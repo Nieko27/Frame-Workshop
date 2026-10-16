@@ -43,7 +43,7 @@ Link to Versipellis' files:
 https://github.com/Nieko27/FrameWork/tree/main/KICAD%20Projects/Primis_Versipellis
 <br>
 Link to VeriMini files:
-https://github.com/Nieko27/FrameWork/tree/main/KICAD%20Projects/Primis_Versipellis
+https://github.com/Nieko27/Frame-Workshop/tree/main/KICAD%20Projects/Primis_VeriMini
 
 ### Locus (Tracker)
 Locus is intended to be a tracker like Vive or Tundra, but without reliance on lighthouse base stations. Since the Steam Frame isn’t limited to base station vision, trackers being used with it shouldn’t be either. Similar to Versipellis, Locus will also use an nRF52833 along with an LSM6DSV16X IMU. The idea is that it will track similarly to a slime tracker, but also use the Steam Frame’s optical tracking to address the drift problem of EMF trackers. 
@@ -55,9 +55,18 @@ Locus is intended to be a tracker like Vive or Tundra, but without reliance on l
 Link to Locus' files:
 https://github.com/Nieko27/FrameWork/tree/main/KICAD%20Projects/Primis_Locus
 
+## Project State
+Each project will have, at the top of its respective page 1 of 3 symbols with a brief description explaining the state that the project is in and whether it is safe to order.
+> 🛑 This project is either untested or tested and found to be nonfunctional in its current state; do not order.
+> ⚠️ This project either partially works or works with modifications that can be made after fab; read current issues and order at your own risk.
+> ✅ This project works in its current state and is considered finished.
+
 ### Future Projects
 * USB Hub
 * Index speaker mod kit
+
+## Accessories and CAD
+While 3D models for each electronics project are in the 3D models folder, I also plan to make several other CAD files available for accessories that don't require electronics. Things like lens caps, headset stands, battery or IO expansion holders, etc.
 
 ## Project Goals
 

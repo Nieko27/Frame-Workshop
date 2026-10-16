@@ -1,3 +1,5 @@
+### WARNING
+> 🛑 This project is either untested or tested and found to be nonfunctional in its current state; do not order.
 # Locus
 Tracker for the Steam Frame.
 ## Current Isseus

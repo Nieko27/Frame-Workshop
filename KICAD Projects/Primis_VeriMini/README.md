@@ -1,5 +1,5 @@
 ### WARNING
-This has yet to be produced by me yet, I have not yet added the gerber files to this repo yet as I have no idea if it will work yet, order them at your own risk.
+> 🛑 This project is either untested or tested and found to be nonfunctional in its current state; do not order.
 # VERI-MINI
 The general purpose dongle for the Steam Frame but smaller.
 <p align="left">
