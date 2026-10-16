@@ -58,7 +58,9 @@ https://github.com/Nieko27/FrameWork/tree/main/KICAD%20Projects/Primis_Locus
 ## Project State
 Each project will have, at the top of its respective page 1 of 3 symbols with a brief description explaining the state that the project is in and whether it is safe to order.
 > 🛑 This project is either untested or tested and found to be nonfunctional in its current state; do not order.
+<br>
 > ⚠️ This project either partially works or works with modifications that can be made after fab; read current issues and order at your own risk.
+<br>
 > ✅ This project works in its current state and is considered finished.
 
 ### Future Projects
@@ -67,6 +69,8 @@ Each project will have, at the top of its respective page 1 of 3 symbols with a 
 
 ## Accessories and CAD
 While 3D models for each electronics project are in the 3D models folder, I also plan to make several other CAD files available for accessories that don't require electronics. Things like lens caps, headset stands, battery or IO expansion holders, etc.
+<br>
+https://github.com/Nieko27/Frame-Workshop/tree/main/3D%20Models/Accessories
 
 ## Project Goals
 
