@@ -58,9 +58,9 @@ https://github.com/Nieko27/FrameWork/tree/main/KICAD%20Projects/Primis_Locus
 ## Project State
 Each project will have, at the top of its respective page 1 of 3 symbols with a brief description explaining the state that the project is in and whether it is safe to order.
 > 🛑 This project is either untested or tested and found to be nonfunctional in its current state; do not order.
-<br>
+
 > ⚠️ This project either partially works or works with modifications that can be made after fab; read current issues and order at your own risk.
-<br>
+
 > ✅ This project works in its current state and is considered finished.
 
 ### Future Projects
