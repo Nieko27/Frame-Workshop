@@ -1,14 +1,8 @@
-## Note
-A forewarning, I am very new to electronics design in general. I apologize in advance for any really baffling design decisions. I hope to learn from these projects and will keep them updated as I learn more. Thank you for your patience.
-
-> ⚠️This is an unofficial 3rd-party project with no association to Valve.
 <p align="center">
   <img src="FrameWork_Banner.png" alt="Banner" />
 </p>
+> ⚠️This is an unofficial 3rd-party project with no association to Valve.
 
-## Offical CAD and Electronic files from Valve
-If you are looking for Valves offical CAD and electronic information for the Frame it can be found here;
-https://gitlab.steamos.cloud/SteamHardware/SteamFrame/-/tree/master
 
 # What is Frame Workshop?
 Frame Workshop is intended to be an open-source bundle of different hardware peripherals built around (but not always exclusive to) the Steam Frame. The idea is to leverage the Steam Frames' modularity and general openness to create a collection of open-source hardware projects that the community can provide feedback on, expand upon, or even take and turn into something entirely new, creating a feedback loop that adds to an ever-expanding ecosystem for the Steam Frame. All source files, from schematics to STLs, will be included, allowing every aspect of each project to be modified and produced to anyone’s preferences. 
@@ -17,6 +11,8 @@ Frame Workshop is intended to be an open-source bundle of different hardware per
 Below is a list of all currently in development hardware projects, including a brief overview and notes on changes made to the most recent revision.
 
 ### Frame Facetracker
+> ⚠️ This project either partially works or works with modifications that can be made after fab; read current issues and order at your own risk.
+
 The Frame face tracker is pretty self-explanatory: it is a module that uses a camera for face tracking in social experiences like VRChat. There are 2 versions planned: one built with the steam frame in mind, using its expansion ports, and another that plugs into the back USB port of the frame and uses an ESP32 to run the camera.
 
 <p align="left">
@@ -30,6 +26,8 @@ Link to the facetracker files:
 https://github.com/Nieko27/FrameWork/tree/main/KICAD%20Projects/Primis_FaceTracker
 
 ### Versipellis (General Purpose Dongle)
+> ⚠️ This project either partially works or works with modifications that can be made after fab; read current issues and order at your own risk.
+
 Versipellis is a dongle utilising an nRF52833 intended as a general-purpose dongle for communicating with any Frame-based hardware, whether it be controllers or trackers. It will be programmable by the end user for whatever they intend to use it for. There will be two versions: one utilising no parts smaller than a 0603 package, making it easy to hand-assemble, and another using much smaller parts that, while smaller, will require assembly by a service like JLCPCB.
 
 <p align="left">
@@ -42,10 +40,15 @@ Versipellis is a dongle utilising an nRF52833 intended as a general-purpose dong
 Link to Versipellis' files:
 https://github.com/Nieko27/FrameWork/tree/main/KICAD%20Projects/Primis_Versipellis
 <br>
+### VeriMini
+> 🛑 This project is either untested or tested and found to be nonfunctional in its current state; do not order.
+
 Link to VeriMini files:
 https://github.com/Nieko27/Frame-Workshop/tree/main/KICAD%20Projects/Primis_VeriMini
 
 ### Locus (Tracker)
+> 🛑 This project is either untested or tested and found to be nonfunctional in its current state; do not order.
+
 Locus is intended to be a tracker like Vive or Tundra, but without reliance on lighthouse base stations. Since the Steam Frame isn’t limited to base station vision, trackers being used with it shouldn’t be either. Similar to Versipellis, Locus will also use an nRF52833 along with an LSM6DSV16X IMU. The idea is that it will track similarly to a slime tracker, but also use the Steam Frame’s optical tracking to address the drift problem of EMF trackers. 
 
 <p align="left">
@@ -79,6 +82,9 @@ https://github.com/Nieko27/Frame-Workshop/tree/main/3D%20Models/Accessories
 * Give the end user total control over the hardware. Don't like how I've done something? Fire up Blender or KiCad and change it yourself to fit whatever need you have in mind. I know not everyone will be able to do this, as it requires familiarity with the software, but it gives people the ability to do so. Obviously, with this in mind, I want to make the experience for everyone as smooth as possible out of the box, so I will be listening to feedback as much as possible to achieve that. 
 
 * Create a feedback loop. I have all this under a CERN-OHL-S-2.0 license, which (as far as I understand) means you can do anything you want with anything in the repo, including selling it for profit, but you must open-source anything you do under the same license. This way it keeps everything open to the community, and every addition helps grow the ecosystem around the Steam Frame. 
+
+## Note
+A forewarning, I am very new to electronics design in general. I apologize in advance for any really baffling design decisions. I hope to learn from these projects and will keep them updated as I learn more. Thank you for your patience.
 
 ## Ideas
 A few ideas for possible mods for the Frame have already been thrown around. If you have an idea for a mod, whether it's a full module or as simple as a 3D-printable counterweight, feel free to open a pull request under the enhancement tag. You may also feel free to email me at nieko972@gmail.com.
