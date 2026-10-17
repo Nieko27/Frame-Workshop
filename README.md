@@ -23,7 +23,7 @@ The Frame face tracker is pretty self-explanatory: it is a module that uses a ca
 
 <br>
 Link to the facetracker files:
-[To FaceTracker] (https://github.com/Nieko27/FrameWork/tree/main/KICAD%20Projects/Primis_FaceTracker)
+[To FaceTracker](https://github.com/Nieko27/FrameWork/tree/main/KICAD%20Projects/Primis_FaceTracker)
 
 ### Versipellis (General Purpose Dongle)
 > ⚠️ This project either partially works or works with modifications that can be made after fab; read current issues and order at your own risk.
@@ -38,13 +38,13 @@ Versipellis is a dongle utilising an nRF52833 intended as a general-purpose dong
 
 <br>
 Link to Versipellis' files:
-[To Versipellis] (https://github.com/Nieko27/FrameWork/tree/main/KICAD%20Projects/Primis_Versipellis)
+[To Versipellis](https://github.com/Nieko27/FrameWork/tree/main/KICAD%20Projects/Primis_Versipellis)
 
 ### VeriMini
 > 🛑 This project is either untested or tested and found to be nonfunctional in its current state; do not order.
 
 Link to VeriMini files:
-[To VeriMini] (https://github.com/Nieko27/Frame-Workshop/tree/main/KICAD%20Projects/Primis_VeriMini)
+[To VeriMini](https://github.com/Nieko27/Frame-Workshop/tree/main/KICAD%20Projects/Primis_VeriMini)
 
 ### Locus (Tracker)
 > 🛑 This project is either untested or tested and found to be nonfunctional in its current state; do not order.
@@ -56,7 +56,7 @@ Locus is intended to be a tracker like Vive or Tundra, but without reliance on l
 </p>
 
 Link to Locus' files:
-[To Locus] (https://github.com/Nieko27/FrameWork/tree/main/KICAD%20Projects/Primis_Locus)
+[To Locus](https://github.com/Nieko27/FrameWork/tree/main/KICAD%20Projects/Primis_Locus)
 
 ## Project State
 Each project will have, at the top of its respective page 1 of 3 symbols with a brief description explaining the state that the project is in and whether it is safe to order.
