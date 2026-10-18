@@ -1,5 +1,10 @@
-### WARNING
-> ⚠️ This project either partially works or works with modifications that can be made after fab; read current issues and order at your own risk.
+### Status
+
+| 🛑R&D | hw: EV2 | 
+| -------- | ------- |
+
+> This accessory is experimental. The latest hardware revision is either untested, incomplete, or broken. Capabilities are unproven. Form factor and design requirements may change entirely. Intended for use by hardware contributors.
+
 ### TODO
 * Copper pads under power supply
 * Clean up and condense
@@ -26,4 +31,3 @@ Q1 is setup improperly, removing it and R10 as well as bridging the now empty pa
 <p align="left">
   <img src="FT_REAL.jpg" alt="Banner" />
 </p>
-

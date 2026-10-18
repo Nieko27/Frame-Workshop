@@ -1,7 +1,8 @@
 <p align="center">
   <img src="FrameWork_Banner.png" alt="Banner" />
 </p>
-> ⚠️This is an unofficial 3rd-party project with no association to Valve.
+
+> ⚠️ This is an unofficial 3rd-party project with no association to Valve.
 
 
 # What is Frame Workshop?
@@ -11,7 +12,9 @@ Frame Workshop is intended to be an open-source bundle of different hardware per
 Below is a list of all currently in development hardware projects, including a brief overview and notes on changes made to the most recent revision.
 
 ### Frame Facetracker
-> ⚠️ This project either partially works or works with modifications that can be made after fab; read current issues and order at your own risk.
+
+| 🛑R&D | hw: EV2 | 
+| -------- | ------- |
 
 The Frame face tracker is pretty self-explanatory: it is a module that uses a camera for face tracking in social experiences like VRChat. There are 2 versions planned: one built with the steam frame in mind, using its expansion ports, and another that plugs into the back USB port of the frame and uses an ESP32 to run the camera.
 
@@ -27,7 +30,10 @@ Link to the facetracker files:
 [Here](https://github.com/Nieko27/FrameWork/tree/main/KICAD%20Projects/Primis_FaceTracker)
 
 ### Versipellis (General Purpose Dongle)
-> ⚠️ This project either partially works or works with modifications that can be made after fab; read current issues and order at your own risk.
+
+| 🟠WIP | hw: EV2 | 
+| -------- | ------- |
+
 
 Versipellis is a dongle utilising an nRF52833 intended as a general-purpose dongle for communicating with any Frame-based hardware, whether it be controllers or trackers. It will be programmable by the end user for whatever they intend to use it for. There will be two versions: one utilising no parts smaller than a 0603 package, making it easy to hand-assemble, and another using much smaller parts that, while smaller, will require assembly by a service like JLCPCB.
 
@@ -43,13 +49,17 @@ Link to Versipellis' files:
 [Here](https://github.com/Nieko27/FrameWork/tree/main/KICAD%20Projects/Primis_Versipellis)
 
 ### VeriMini
-> 🛑 This project is either untested or tested and found to be nonfunctional in its current state; do not order.
+
+| 🛑R&D | hw: EV1 | 
+| -------- | ------- |
 
 Link to VeriMini files:
 [Here](https://github.com/Nieko27/Frame-Workshop/tree/main/KICAD%20Projects/Primis_VeriMini)
 
 ### Locus (Tracker)
-> 🛑 This project is either untested or tested and found to be nonfunctional in its current state; do not order.
+
+| 🛑R&D | hw: EV2 | 
+| -------- | ------- |
 
 Locus is intended to be a tracker like Vive or Tundra, but without reliance on lighthouse base stations. Since the Steam Frame isn’t limited to base station vision, trackers being used with it shouldn’t be either. Similar to Versipellis, Locus will also use an nRF52833 along with an LSM6DSV16X IMU. The idea is that it will track similarly to a slime tracker, but also use the Steam Frame’s optical tracking to address the drift problem of EMF trackers. 
 
@@ -60,13 +70,20 @@ Locus is intended to be a tracker like Vive or Tundra, but without reliance on l
 Link to Locus' files:
 [Here](https://github.com/Nieko27/FrameWork/tree/main/KICAD%20Projects/Primis_Locus)
 
-## Project State
-Each project will have, at the top of its respective page 1 of 3 symbols with a brief description explaining the state that the project is in and whether it is safe to order.
-> 🛑 This project is either untested or tested and found to be nonfunctional in its current state; do not order.
+## Project Status Indicator
 
-> ⚠️ This project either partially works or works with modifications that can be made after fab; read current issues and order at your own risk.
+| 🔵STATUS | hw: EV1 | fw: v0.0.0 | sw: v0.0.0 |
+| -------- | ------- | ---------- | ---------- |
 
-> ✅ This project works in its current state and is considered finished.
+The above status indicator is listed for each Frame Workshop accessory. It shows overall progress as well as the latest upstreamed hardware, firmware, and/or software versions. Here's what each status means:
+
+**🔴R&D**: This accessory is experimental. The latest hardware revision is either untested, incomplete, or broken. Capabilities are unproven. Form factor and design requirements may change entirely. Intended for use by hardware contributors.
+
+**🟠WIP**: The current hardware revision has been tested and is fully capable of meeting established design requirements. Firmware and/or software are in active development. Future hardware revisions may still follow if oversights or improvements are discovered. Intended for use by software contributors.
+
+**🟡PRE**: This accessory has reached a pre-release stage. Hardware is finalized. Firmware and software meets functional requirements but may still be buggy or unintuitive. Documentation is not yet up to release standards. Considered usable for tinkerers and early adopters.
+
+**🟢REL**: This accessory is considered released and fully functional both in software and hardware. Documentation is available to assist with ordering components, assembly, and usage. Software and firmware QOL updates may still follow but will be distributed through user friendly means.
 
 ### Future Projects
 * USB Hub

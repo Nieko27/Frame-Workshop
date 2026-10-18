@@ -1,7 +1,13 @@
-### WARNING
-> ⚠️ This project either partially works or works with modifications that can be made after fab; read current issues and order at your own risk.
+### Status
+
+| 🟠WIP | hw: EV2 | 
+| -------- | ------- |
+
+> The current hardware revision has been tested and is fully capable of meeting established design requirements. Firmware and/or software are in active development. Future hardware revisions may still follow if oversights or improvements are discovered. Intended for use by software contributors.
+
 # Versipellis
 The general purpose dongle for the Steam Frame.
+
 ## Current Issues
 The current version works but I made some mistakes on the clock speeds for the chip. This doesnt seem to effect perforamnce of chip any but Im not sure how it would affect the life time of the chip. Will fix in a future version.
 <p align="left">
@@ -27,4 +33,3 @@ The current version works but I made some mistakes on the clock speeds for the c
 <p align="left">
   <img src="V_REALEV2.jpg" alt="Banner" />
 </p>
-
