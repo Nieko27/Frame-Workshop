@@ -25,3 +25,8 @@ Currently the SDA line is getting pulled 0.02v while running the slime firmware,
 <p align="left">
   <img src="LOCUS_REAL.jpg" alt="Banner" />
 </p>
+
+### EV2
+<p align="left">
+  <img src="LOCUS_REALEV2.jpg" alt="Banner" />
+</p>

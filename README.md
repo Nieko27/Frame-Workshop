@@ -38,7 +38,7 @@ Link to the facetracker files:
 Versipellis is a dongle utilising an nRF52833 intended as a general-purpose dongle for communicating with any Frame-based hardware, whether it be controllers or trackers. It will be programmable by the end user for whatever they intend to use it for. There will be two versions: one utilising no parts smaller than a 0603 package, making it easy to hand-assemble, and another using much smaller parts that, while smaller, will require assembly by a service like JLCPCB.
 
 <p align="left">
-  <img src="VERI.jpg" alt="Banner" />
+  <img src="Veri_EV2.jpg" alt="Banner" />
 </p>
 
 >Hand-assemblable EV1
@@ -58,13 +58,13 @@ Link to VeriMini files:
 
 ### Locus (Tracker)
 
-| 🛑R&D | hw: EV2 | 
+| 🟠WIP | hw: EV2 | 
 | -------- | ------- |
 
 Locus is intended to be a tracker like Vive or Tundra, but without reliance on lighthouse base stations. Since the Steam Frame isn’t limited to base station vision, trackers being used with it shouldn’t be either. Similar to Versipellis, Locus will also use an nRF52833 along with an LSM6DSV16X IMU. The idea is that it will track similarly to a slime tracker, but also use the Steam Frame’s optical tracking to address the drift problem of EMF trackers. 
 
 <p align="left">
-  <img src="LOCUS.jpg" alt="Banner" />
+  <img src="Locus_EV2.jpg" alt="Banner" />
 </p>
 
 Link to Locus' files:
