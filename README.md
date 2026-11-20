@@ -11,7 +11,7 @@ Frame Workshop is intended to be an open-source bundle of different hardware per
 ## Hardware
 Below is a list of all currently in development hardware projects, including a brief overview and notes on changes made to the most recent revision.
 
-### Frame Facetracker
+### Agnostic Facetracker
 
 | 🛑R&D | hw: EV2 | 
 | -------- | ------- |
@@ -26,8 +26,16 @@ The Frame face tracker is pretty self-explanatory: it is a module that uses a ca
 
 <br>
 
-Link to the facetracker files:
+Link to the agnostic facetracker files:
 [Here](https://github.com/Nieko27/FrameWork/tree/main/KICAD%20Projects/Primis_FaceTracker)
+
+### Frame Facetracker
+
+| 🛑R&D | hw: EV1 | 
+| -------- | ------- |
+
+Link to frame facetracker files:
+[Here](https://github.com/Nieko27/Frame-Workshop/tree/main/KICAD%20Projects/Frame_FaceTracker)
 
 ### Versipellis (General Purpose Dongle)
 

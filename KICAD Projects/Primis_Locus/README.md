@@ -1,12 +1,10 @@
 ### Status
 
-| 🛑R&D | hw: EV2 | 
+| 🟠WIP | hw: EV2 | 
 | -------- | ------- |
 
-> This accessory is experimental. The latest hardware revision is either untested, incomplete, or broken. Capabilities are unproven. Form factor and design requirements may change entirely. Intended for use by hardware contributors.
+> The current hardware revision has been tested and is fully capable of meeting established design requirements. Firmware and/or software are in active development. Future hardware revisions may still follow if oversights or improvements are discovered. Intended for use by software contributors.
 
-## Current Isseus
-Currently the SDA line is getting pulled 0.02v while running the slime firmware, if I halt the NRF52833 it jumps up to the expected 1.8v. Currently working on figuring out why this happens.
 <p align="left">
   <img src="LOCUS_IMG.png" alt="Banner" />
 </p>
