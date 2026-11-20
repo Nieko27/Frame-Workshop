@@ -27,7 +27,7 @@ The Frame face tracker is pretty self-explanatory: it is a module that uses a ca
 <br>
 
 Link to the agnostic facetracker files:
-[Here](https://github.com/Nieko27/FrameWork/tree/main/KICAD%20Projects/Primis_FaceTracker)
+[Here](https://github.com/Nieko27/Frame-Workshop/tree/main/KICAD%20Projects/FaceTrackers/Primis_FaceTracker)
 
 ### Frame Facetracker
 
@@ -35,7 +35,7 @@ Link to the agnostic facetracker files:
 | -------- | ------- |
 
 Link to frame facetracker files:
-[Here](https://github.com/Nieko27/Frame-Workshop/tree/main/KICAD%20Projects/Frame_FaceTracker)
+[Here](https://github.com/Nieko27/Frame-Workshop/tree/main/KICAD%20Projects/FaceTrackers/Frame_FaceTracker)
 
 ### Versipellis (General Purpose Dongle)
 
@@ -54,7 +54,7 @@ Versipellis is a dongle utilising an nRF52833 intended as a general-purpose dong
 <br>
 
 Link to Versipellis' files:
-[Here](https://github.com/Nieko27/FrameWork/tree/main/KICAD%20Projects/Primis_Versipellis)
+[Here](https://github.com/Nieko27/Frame-Workshop/tree/main/KICAD%20Projects/Dongles/Primis_Versipellis)
 
 ### VeriMini
 
@@ -62,7 +62,7 @@ Link to Versipellis' files:
 | -------- | ------- |
 
 Link to VeriMini files:
-[Here](https://github.com/Nieko27/Frame-Workshop/tree/main/KICAD%20Projects/Primis_VeriMini)
+[Here](https://github.com/Nieko27/Frame-Workshop/tree/main/KICAD%20Projects/Dongles/Primis_VeriMini)
 
 ### Locus (Tracker)
 
